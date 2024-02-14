@@ -1,0 +1,600 @@
+14-Feb-2024 16:46:46.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+14-Feb-2024 16:46:46.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+14-Feb-2024 16:46:46.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+14-Feb-2024 16:46:46.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+14-Feb-2024 16:46:46.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Feb-2024 16:46:46.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2024 16:46:46.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\jdk-21.0.2
+14-Feb-2024 16:46:46.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2+13-LTS-58
+14-Feb-2024 16:46:46.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2024 16:46:46.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\127ya\IdeaProjects\batch33-springmvc
+14-Feb-2024 16:46:46.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\127ya\Downloads\apache-tomcat-9.0.85-windows-x64\apache-tomcat-9.0.85
+14-Feb-2024 16:46:46.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Feb-2024 16:46:46.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Feb-2024 16:46:46.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Feb-2024 16:46:46.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Feb-2024 16:46:46.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Feb-2024 16:46:46.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\127ya\Downloads\apache-tomcat-9.0.85-windows-x64\apache-tomcat-9.0.85
+14-Feb-2024 16:46:46.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\127ya\IdeaProjects\batch33-springmvc
+14-Feb-2024 16:46:46.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\127ya\IdeaProjects\batch33-springmvc\temp
+14-Feb-2024 16:46:46.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\127ya\IdeaProjects\batch33-springmvc\conf\logging.properties
+14-Feb-2024 16:46:46.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2024 16:46:46.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\lib\idea_rt.jar=54419:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin
+14-Feb-2024 16:46:46.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+14-Feb-2024 16:46:46.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+14-Feb-2024 16:46:46.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+14-Feb-2024 16:46:46.715 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+14-Feb-2024 16:46:46.716 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+14-Feb-2024 16:46:46.716 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14-Feb-2024 16:46:46.747 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+14-Feb-2024 16:46:47.434 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:46:47.465 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1234] milliseconds
+14-Feb-2024 16:46:47.578 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2024 16:46:47.578 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+14-Feb-2024 16:46:47.597 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\127ya\IdeaProjects\batch33-springmvc\conf\Catalina\localhost\springmvc.xml]
+14-Feb-2024 16:46:49.328 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2024 16:46:49.698 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization started
+14-Feb-2024 16:46:49.741 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 16:46:49 CST 2024]; root of context hierarchy
+14-Feb-2024 16:46:49.816 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+14-Feb-2024 16:46:50.816 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/bmi],methods=[POST]}" onto public java.lang.String com.java.cis.BMIController.result(double,double,org.springframework.ui.Model)
+14-Feb-2024 16:46:50.817 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/],methods=[GET]}" onto public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model)
+14-Feb-2024 16:46:50.820 WARNING [main] org.springframework.web.context.support.XmlWebApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'homeController' method 
+public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+to {[/],methods=[GET]}: There is already 'BMIController' bean method
+public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model) mapped.
+14-Feb-2024 16:46:50.822 SEVERE [main] org.springframework.web.servlet.DispatcherServlet.initServletBean Context initialization failed
+	org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'homeController' method 
+public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+to {[/],methods=[GET]}: There is already 'BMIController' bean method
+public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model) mapped.
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+		at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+		at javax.servlet.GenericServlet.init(GenericServlet.java:143)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1106)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1063)
+		at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:960)
+		at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4641)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4948)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:691)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1897)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:584)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1619)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'homeController' method 
+public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+to {[/],methods=[GET]}: There is already 'BMIController' bean method
+public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model) mapped.
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:214)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:184)
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:127)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+		... 58 more
+14-Feb-2024 16:46:50.851 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\127ya\IdeaProjects\batch33-springmvc\conf\Catalina\localhost\springmvc.xml] has finished in [3,248] ms
+14-Feb-2024 16:46:50.857 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:46:50.882 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3414] milliseconds
+14-Feb-2024 16:46:54.384 INFO [http-nio-8080-exec-4] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization started
+14-Feb-2024 16:46:54.384 INFO [http-nio-8080-exec-4] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 16:46:54 CST 2024]; root of context hierarchy
+14-Feb-2024 16:46:54.384 INFO [http-nio-8080-exec-4] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+14-Feb-2024 16:46:54.615 INFO [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/bmi],methods=[POST]}" onto public java.lang.String com.java.cis.BMIController.result(double,double,org.springframework.ui.Model)
+14-Feb-2024 16:46:54.615 INFO [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/],methods=[GET]}" onto public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model)
+14-Feb-2024 16:46:54.616 WARNING [http-nio-8080-exec-4] org.springframework.web.context.support.XmlWebApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'homeController' method 
+public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+to {[/],methods=[GET]}: There is already 'BMIController' bean method
+public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model) mapped.
+14-Feb-2024 16:46:54.618 SEVERE [http-nio-8080-exec-4] org.springframework.web.servlet.DispatcherServlet.initServletBean Context initialization failed
+	org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'homeController' method 
+public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+to {[/],methods=[GET]}: There is already 'BMIController' bean method
+public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model) mapped.
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+		at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+		at javax.servlet.GenericServlet.init(GenericServlet.java:143)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1106)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1063)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:747)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:116)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'homeController' method 
+public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+to {[/],methods=[GET]}: There is already 'BMIController' bean method
+public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model) mapped.
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:214)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:184)
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:127)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+		... 36 more
+14-Feb-2024 16:47:29.010 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:47:29.016 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2024 16:47:29.036 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:47:29.040 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:47:58.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+14-Feb-2024 16:47:58.889 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+14-Feb-2024 16:47:58.889 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+14-Feb-2024 16:47:58.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+14-Feb-2024 16:47:58.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Feb-2024 16:47:58.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2024 16:47:58.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\jdk-21.0.2
+14-Feb-2024 16:47:58.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2+13-LTS-58
+14-Feb-2024 16:47:58.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2024 16:47:58.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\127ya\IdeaProjects\batch33-springmvc
+14-Feb-2024 16:47:58.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\127ya\Downloads\apache-tomcat-9.0.85-windows-x64\apache-tomcat-9.0.85
+14-Feb-2024 16:47:58.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Feb-2024 16:47:58.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Feb-2024 16:47:58.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Feb-2024 16:47:58.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Feb-2024 16:47:58.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Feb-2024 16:47:58.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\127ya\Downloads\apache-tomcat-9.0.85-windows-x64\apache-tomcat-9.0.85
+14-Feb-2024 16:47:58.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\127ya\IdeaProjects\batch33-springmvc
+14-Feb-2024 16:47:58.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\127ya\IdeaProjects\batch33-springmvc\temp
+14-Feb-2024 16:47:58.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\127ya\IdeaProjects\batch33-springmvc\conf\logging.properties
+14-Feb-2024 16:47:58.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2024 16:47:58.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\lib\idea_rt.jar=54508:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin
+14-Feb-2024 16:47:58.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+14-Feb-2024 16:47:58.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+14-Feb-2024 16:47:58.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+14-Feb-2024 16:47:58.909 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+14-Feb-2024 16:47:58.909 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+14-Feb-2024 16:47:58.909 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14-Feb-2024 16:47:58.916 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+14-Feb-2024 16:47:59.501 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:47:59.527 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [922] milliseconds
+14-Feb-2024 16:47:59.650 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2024 16:47:59.651 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+14-Feb-2024 16:47:59.669 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\127ya\IdeaProjects\batch33-springmvc\conf\Catalina\localhost\springmvc.xml]
+14-Feb-2024 16:48:01.199 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2024 16:48:01.549 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization started
+14-Feb-2024 16:48:01.588 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 16:48:01 CST 2024]; root of context hierarchy
+14-Feb-2024 16:48:01.650 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+14-Feb-2024 16:48:02.537 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/bmi],methods=[POST]}" onto public java.lang.String com.java.cis.BMIController.result(double,double,org.springframework.ui.Model)
+14-Feb-2024 16:48:02.539 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/],methods=[GET]}" onto public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model)
+14-Feb-2024 16:48:02.543 WARNING [main] org.springframework.web.context.support.XmlWebApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'homeController' method 
+public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+to {[/],methods=[GET]}: There is already 'BMIController' bean method
+public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model) mapped.
+14-Feb-2024 16:48:02.545 SEVERE [main] org.springframework.web.servlet.DispatcherServlet.initServletBean Context initialization failed
+	org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'homeController' method 
+public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+to {[/],methods=[GET]}: There is already 'BMIController' bean method
+public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model) mapped.
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+		at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+		at javax.servlet.GenericServlet.init(GenericServlet.java:143)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1106)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1063)
+		at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:960)
+		at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4641)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4948)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:691)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1897)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:584)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1619)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'homeController' method 
+public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+to {[/],methods=[GET]}: There is already 'BMIController' bean method
+public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model) mapped.
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:214)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:184)
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:127)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+		... 58 more
+14-Feb-2024 16:48:02.566 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\127ya\IdeaProjects\batch33-springmvc\conf\Catalina\localhost\springmvc.xml] has finished in [2,895] ms
+14-Feb-2024 16:48:02.569 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:48:02.600 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3070] milliseconds
+14-Feb-2024 16:48:05.483 INFO [http-nio-8080-exec-4] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization started
+14-Feb-2024 16:48:05.484 INFO [http-nio-8080-exec-4] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 16:48:05 CST 2024]; root of context hierarchy
+14-Feb-2024 16:48:05.484 INFO [http-nio-8080-exec-4] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+14-Feb-2024 16:48:05.607 INFO [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/bmi],methods=[POST]}" onto public java.lang.String com.java.cis.BMIController.result(double,double,org.springframework.ui.Model)
+14-Feb-2024 16:48:05.608 INFO [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/],methods=[GET]}" onto public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model)
+14-Feb-2024 16:48:05.609 WARNING [http-nio-8080-exec-4] org.springframework.web.context.support.XmlWebApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'homeController' method 
+public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+to {[/],methods=[GET]}: There is already 'BMIController' bean method
+public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model) mapped.
+14-Feb-2024 16:48:05.609 SEVERE [http-nio-8080-exec-4] org.springframework.web.servlet.DispatcherServlet.initServletBean Context initialization failed
+	org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'homeController' method 
+public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+to {[/],methods=[GET]}: There is already 'BMIController' bean method
+public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model) mapped.
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+		at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+		at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+		at javax.servlet.GenericServlet.init(GenericServlet.java:143)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1106)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1063)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:747)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:116)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'homeController' method 
+public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+to {[/],methods=[GET]}: There is already 'BMIController' bean method
+public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model) mapped.
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:214)
+		at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:184)
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:127)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+		... 36 more
+14-Feb-2024 16:49:20.934 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:49:20.944 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2024 16:49:20.964 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:49:20.975 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:58:04.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+14-Feb-2024 16:58:04.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+14-Feb-2024 16:58:04.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+14-Feb-2024 16:58:04.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+14-Feb-2024 16:58:04.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Feb-2024 16:58:04.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2024 16:58:04.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\jdk-21.0.2
+14-Feb-2024 16:58:04.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2+13-LTS-58
+14-Feb-2024 16:58:04.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2024 16:58:04.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\127ya\IdeaProjects\batch33-springmvc
+14-Feb-2024 16:58:04.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\127ya\Downloads\apache-tomcat-9.0.85-windows-x64\apache-tomcat-9.0.85
+14-Feb-2024 16:58:04.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Feb-2024 16:58:04.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Feb-2024 16:58:04.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Feb-2024 16:58:04.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Feb-2024 16:58:04.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Feb-2024 16:58:04.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\127ya\Downloads\apache-tomcat-9.0.85-windows-x64\apache-tomcat-9.0.85
+14-Feb-2024 16:58:04.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\127ya\IdeaProjects\batch33-springmvc
+14-Feb-2024 16:58:04.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\127ya\IdeaProjects\batch33-springmvc\temp
+14-Feb-2024 16:58:04.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\127ya\IdeaProjects\batch33-springmvc\conf\logging.properties
+14-Feb-2024 16:58:04.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2024 16:58:04.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\lib\idea_rt.jar=54904:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin
+14-Feb-2024 16:58:04.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+14-Feb-2024 16:58:04.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+14-Feb-2024 16:58:04.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+14-Feb-2024 16:58:04.173 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+14-Feb-2024 16:58:04.173 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+14-Feb-2024 16:58:04.173 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14-Feb-2024 16:58:04.180 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+14-Feb-2024 16:58:04.829 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:58:04.859 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1042] milliseconds
+14-Feb-2024 16:58:04.942 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2024 16:58:04.943 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+14-Feb-2024 16:58:04.956 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\127ya\IdeaProjects\batch33-springmvc\conf\Catalina\localhost\springmvc.xml]
+14-Feb-2024 16:58:06.822 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2024 16:58:07.311 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization started
+14-Feb-2024 16:58:07.370 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 16:58:07 CST 2024]; root of context hierarchy
+14-Feb-2024 16:58:07.473 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+14-Feb-2024 16:58:08.460 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/bmi],methods=[POST]}" onto public java.lang.String com.java.cis.BMIController.result(double,double,org.springframework.ui.Model)
+14-Feb-2024 16:58:08.461 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/],methods=[GET]}" onto public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model)
+14-Feb-2024 16:58:08.465 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/Login],methods=[GET]}" onto public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+14-Feb-2024 16:58:08.465 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user],methods=[POST]}" onto public java.lang.String com.java.cis.HomeController.user(com.java.cis.User,org.springframework.ui.Model)
+14-Feb-2024 16:58:08.586 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 16:58:07 CST 2024]; root of context hierarchy
+14-Feb-2024 16:58:08.657 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 16:58:07 CST 2024]; root of context hierarchy
+14-Feb-2024 16:58:08.934 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization completed in 1623 ms
+14-Feb-2024 16:58:08.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\127ya\IdeaProjects\batch33-springmvc\conf\Catalina\localhost\springmvc.xml] has finished in [3,994] ms
+14-Feb-2024 16:58:08.967 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:58:08.999 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4137] milliseconds
+14-Feb-2024 16:58:11.776 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:58:11.780 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2024 16:58:11.783 INFO [Thread-1] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 16:58:07 CST 2024]; root of context hierarchy
+14-Feb-2024 16:58:11.791 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:58:11.794 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:59:18.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+14-Feb-2024 16:59:18.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+14-Feb-2024 16:59:18.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+14-Feb-2024 16:59:18.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+14-Feb-2024 16:59:18.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Feb-2024 16:59:18.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2024 16:59:18.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\jdk-21.0.2
+14-Feb-2024 16:59:18.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2+13-LTS-58
+14-Feb-2024 16:59:18.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2024 16:59:18.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\127ya\IdeaProjects\batch33-springmvc
+14-Feb-2024 16:59:18.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\127ya\Downloads\apache-tomcat-9.0.85-windows-x64\apache-tomcat-9.0.85
+14-Feb-2024 16:59:18.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Feb-2024 16:59:18.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Feb-2024 16:59:18.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Feb-2024 16:59:18.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Feb-2024 16:59:18.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Feb-2024 16:59:18.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\127ya\Downloads\apache-tomcat-9.0.85-windows-x64\apache-tomcat-9.0.85
+14-Feb-2024 16:59:18.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\127ya\IdeaProjects\batch33-springmvc
+14-Feb-2024 16:59:18.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\127ya\IdeaProjects\batch33-springmvc\temp
+14-Feb-2024 16:59:18.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\127ya\IdeaProjects\batch33-springmvc\conf\logging.properties
+14-Feb-2024 16:59:18.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2024 16:59:18.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\lib\idea_rt.jar=55012:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin
+14-Feb-2024 16:59:18.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+14-Feb-2024 16:59:18.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+14-Feb-2024 16:59:18.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+14-Feb-2024 16:59:18.818 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+14-Feb-2024 16:59:18.818 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+14-Feb-2024 16:59:18.818 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14-Feb-2024 16:59:18.827 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+14-Feb-2024 16:59:19.451 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:59:19.483 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [908] milliseconds
+14-Feb-2024 16:59:19.582 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2024 16:59:19.582 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+14-Feb-2024 16:59:19.593 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\127ya\IdeaProjects\batch33-springmvc\conf\Catalina\localhost\springmvc.xml]
+14-Feb-2024 16:59:21.326 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2024 16:59:21.697 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization started
+14-Feb-2024 16:59:21.735 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 16:59:21 CST 2024]; root of context hierarchy
+14-Feb-2024 16:59:21.810 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+14-Feb-2024 16:59:22.633 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/bmi],methods=[POST]}" onto public java.lang.String com.java.cis.BMIController.result(double,double,org.springframework.ui.Model)
+14-Feb-2024 16:59:22.635 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/],methods=[GET]}" onto public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model)
+14-Feb-2024 16:59:22.639 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/Login],methods=[GET]}" onto public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+14-Feb-2024 16:59:22.640 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user],methods=[POST]}" onto public java.lang.String com.java.cis.HomeController.user(com.java.cis.User,org.springframework.ui.Model)
+14-Feb-2024 16:59:22.746 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 16:59:21 CST 2024]; root of context hierarchy
+14-Feb-2024 16:59:22.812 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 16:59:21 CST 2024]; root of context hierarchy
+14-Feb-2024 16:59:23.071 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization completed in 1374 ms
+14-Feb-2024 16:59:23.088 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\127ya\IdeaProjects\batch33-springmvc\conf\Catalina\localhost\springmvc.xml] has finished in [3,494] ms
+14-Feb-2024 16:59:23.098 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:59:23.129 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3642] milliseconds
+14-Feb-2024 17:01:54.598 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 17:01:54.607 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2024 17:01:54.608 INFO [Thread-1] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 16:59:21 CST 2024]; root of context hierarchy
+14-Feb-2024 17:01:54.615 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 17:01:54.618 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 17:02:03.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+14-Feb-2024 17:02:03.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+14-Feb-2024 17:02:03.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+14-Feb-2024 17:02:03.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+14-Feb-2024 17:02:03.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Feb-2024 17:02:03.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2024 17:02:03.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\jdk-21.0.2
+14-Feb-2024 17:02:03.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2+13-LTS-58
+14-Feb-2024 17:02:03.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2024 17:02:03.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\127ya\IdeaProjects\batch33-springmvc
+14-Feb-2024 17:02:03.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\127ya\Downloads\apache-tomcat-9.0.85-windows-x64\apache-tomcat-9.0.85
+14-Feb-2024 17:02:03.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Feb-2024 17:02:03.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Feb-2024 17:02:03.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Feb-2024 17:02:03.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Feb-2024 17:02:03.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Feb-2024 17:02:03.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\127ya\Downloads\apache-tomcat-9.0.85-windows-x64\apache-tomcat-9.0.85
+14-Feb-2024 17:02:03.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\127ya\IdeaProjects\batch33-springmvc
+14-Feb-2024 17:02:03.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\127ya\IdeaProjects\batch33-springmvc\temp
+14-Feb-2024 17:02:03.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\127ya\IdeaProjects\batch33-springmvc\conf\logging.properties
+14-Feb-2024 17:02:03.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2024 17:02:03.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\lib\idea_rt.jar=55051:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin
+14-Feb-2024 17:02:03.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+14-Feb-2024 17:02:03.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+14-Feb-2024 17:02:03.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+14-Feb-2024 17:02:03.094 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+14-Feb-2024 17:02:03.094 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+14-Feb-2024 17:02:03.094 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14-Feb-2024 17:02:03.102 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+14-Feb-2024 17:02:03.642 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 17:02:03.682 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [832] milliseconds
+14-Feb-2024 17:02:03.928 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2024 17:02:03.929 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+14-Feb-2024 17:02:03.959 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\127ya\IdeaProjects\batch33-springmvc\conf\Catalina\localhost\springmvc.xml]
+14-Feb-2024 17:02:05.584 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2024 17:02:05.897 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization started
+14-Feb-2024 17:02:05.939 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 17:02:05 CST 2024]; root of context hierarchy
+14-Feb-2024 17:02:06.001 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+14-Feb-2024 17:02:06.890 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/bmi],methods=[POST]}" onto public java.lang.String com.java.cis.BMIController.result(double,double,org.springframework.ui.Model)
+14-Feb-2024 17:02:06.891 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/],methods=[GET]}" onto public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model)
+14-Feb-2024 17:02:06.894 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/Login],methods=[GET]}" onto public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+14-Feb-2024 17:02:06.894 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user],methods=[POST]}" onto public java.lang.String com.java.cis.HomeController.user(com.java.cis.User,org.springframework.ui.Model)
+14-Feb-2024 17:02:07.001 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 17:02:05 CST 2024]; root of context hierarchy
+14-Feb-2024 17:02:07.066 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 17:02:05 CST 2024]; root of context hierarchy
+14-Feb-2024 17:02:07.336 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization completed in 1439 ms
+14-Feb-2024 17:02:07.355 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\127ya\IdeaProjects\batch33-springmvc\conf\Catalina\localhost\springmvc.xml] has finished in [3,396] ms
+14-Feb-2024 17:02:07.360 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 17:02:07.388 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3700] milliseconds
+14-Feb-2024 17:02:38.783 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 17:02:38.785 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2024 17:02:38.787 INFO [Thread-1] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 17:02:05 CST 2024]; root of context hierarchy
+14-Feb-2024 17:02:38.796 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 17:02:38.799 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 17:03:22.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+14-Feb-2024 17:03:22.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+14-Feb-2024 17:03:22.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+14-Feb-2024 17:03:22.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+14-Feb-2024 17:03:22.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Feb-2024 17:03:22.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2024 17:03:22.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\jdk-21.0.2
+14-Feb-2024 17:03:22.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2+13-LTS-58
+14-Feb-2024 17:03:22.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2024 17:03:22.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\127ya\IdeaProjects\batch33-springmvc
+14-Feb-2024 17:03:22.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\127ya\Downloads\apache-tomcat-9.0.85-windows-x64\apache-tomcat-9.0.85
+14-Feb-2024 17:03:22.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Feb-2024 17:03:22.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Feb-2024 17:03:22.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Feb-2024 17:03:22.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Feb-2024 17:03:22.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Feb-2024 17:03:22.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\127ya\Downloads\apache-tomcat-9.0.85-windows-x64\apache-tomcat-9.0.85
+14-Feb-2024 17:03:22.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\127ya\IdeaProjects\batch33-springmvc
+14-Feb-2024 17:03:22.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\127ya\IdeaProjects\batch33-springmvc\temp
+14-Feb-2024 17:03:22.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\127ya\IdeaProjects\batch33-springmvc\conf\logging.properties
+14-Feb-2024 17:03:22.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2024 17:03:22.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\lib\idea_rt.jar=55147:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin
+14-Feb-2024 17:03:22.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+14-Feb-2024 17:03:22.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+14-Feb-2024 17:03:22.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+14-Feb-2024 17:03:22.099 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+14-Feb-2024 17:03:22.100 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+14-Feb-2024 17:03:22.100 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14-Feb-2024 17:03:22.107 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+14-Feb-2024 17:03:22.590 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 17:03:22.628 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [764] milliseconds
+14-Feb-2024 17:03:22.866 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2024 17:03:22.866 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+14-Feb-2024 17:03:22.898 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\127ya\IdeaProjects\batch33-springmvc\conf\Catalina\localhost\springmvc.xml]
+14-Feb-2024 17:03:24.579 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2024 17:03:24.899 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization started
+14-Feb-2024 17:03:24.935 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 17:03:24 CST 2024]; root of context hierarchy
+14-Feb-2024 17:03:24.999 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+14-Feb-2024 17:03:25.845 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/bmi],methods=[POST]}" onto public java.lang.String com.java.cis.BMIController.result(double,double,org.springframework.ui.Model)
+14-Feb-2024 17:03:25.846 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/],methods=[GET]}" onto public java.lang.String com.java.cis.BMIController.input(java.util.Locale,org.springframework.ui.Model)
+14-Feb-2024 17:03:25.849 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/Login],methods=[GET]}" onto public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+14-Feb-2024 17:03:25.849 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user],methods=[POST]}" onto public java.lang.String com.java.cis.HomeController.user(com.java.cis.User,org.springframework.ui.Model)
+14-Feb-2024 17:03:25.956 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 17:03:24 CST 2024]; root of context hierarchy
+14-Feb-2024 17:03:26.030 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 17:03:24 CST 2024]; root of context hierarchy
+14-Feb-2024 17:03:26.261 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization completed in 1361 ms
+14-Feb-2024 17:03:26.277 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\127ya\IdeaProjects\batch33-springmvc\conf\Catalina\localhost\springmvc.xml] has finished in [3,379] ms
+14-Feb-2024 17:03:26.280 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 17:03:26.307 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3673] milliseconds
+14-Feb-2024 17:09:28.758 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 17:09:28.761 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2024 17:09:28.762 INFO [Thread-1] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 17:03:24 CST 2024]; root of context hierarchy
+14-Feb-2024 17:09:28.805 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 17:09:28.818 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
